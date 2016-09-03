@@ -74,6 +74,7 @@ function importJson() {
 
 function start(db){
 	app.use(express.static('public'));
+	app.use('/bower_components',express.static('bower_components'));
 	app.use(favicon(__dirname + '/public/img/favicon.ico')); //serve favicon
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({
@@ -180,7 +181,8 @@ function start(db){
 	}
 
 	app.get('*', function (req, res) {
-		res.redirect('/');
+		res.writeHead(404);
+		res.end('404')
 	});
 
 

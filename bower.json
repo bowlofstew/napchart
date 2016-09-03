@@ -1,0 +1,11 @@
+{
+  "name": "napchart",
+  "description": "Polyphasic sleep visualizer",
+  "main": "script.js",
+  "license": "MIT",
+  "homepage": "https://github.com/larskarbo/napchart",
+
+  "dependencies": [
+    
+  ]
+}

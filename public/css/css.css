@@ -143,10 +143,11 @@ p,.list li{
 	padding:0 1rem;
 }
 
+/*@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,600';*/
 #logo {
 	display:inline-block;
 	font-size: 24px;
-	font-family:Tahoma;
+	font-family:'Roboto';
 	letter-spacing: 4px;
 }
 
