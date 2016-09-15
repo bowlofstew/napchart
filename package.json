@@ -2,29 +2,35 @@
   "scripts": {
     "start": "node script.js"
   },
-
   "main": "script.js",
   "name": "napchart",
   "version": "0.6.0",
   "description": "Polyphasic sleep visualizer",
-  "main": "script.js",
-
   "dependencies": {
     "express": "~4.0.0",
-  	"ejs":"*",
-  	"mysql":"*",
-    "body-parser":"*",
-    "serve-favicon":"*",
-    "winston":"*",
-    "nconf":"*",
-    "prompt":"*",
-    "sequelize":"*",
-    "sequelize-import":"*"
-	},
-
+    "ejs": "*",
+    "mysql": "*",
+    "body-parser": "*",
+    "serve-favicon": "*",
+    "winston": "*",
+    "nconf": "*",
+    "prompt": "*",
+    "sequelize": "*",
+    "sequelize-import": "*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/larskarbo/napchart"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3"
   }
-  
 }
